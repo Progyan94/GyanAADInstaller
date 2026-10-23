@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GyanXD25 Cyberpunk / AI Operator Signature Palette -->
+    <color name="gyan_bg_dark">#06070D</color>
+    <color name="gyan_bg_surface">#0A0D18</color>
+    <color name="gyan_bg_card">#0C1122</color>
+    <color name="gyan_bg_card_hover">#12182E</color>
+    <color name="gyan_border_subtle">#1E263D</color>
+
+    <!-- Accents -->
+    <color name="gyan_crimson">#EF4444</color>
+    <color name="gyan_crimson_glow">#F87171</color>
+    <color name="gyan_blue">#3B82F6</color>
+    <color name="gyan_blue_glow">#60A5FA</color>
+    <color name="gyan_gold">#F59E0B</color>
+    <color name="gyan_gold_bright">#FBBF24</color>
+    <color name="gyan_gold_glow">#FDE047</color>
+    <color name="gyan_orange">#F97316</color>
+    <color name="gyan_orange_glow">#FB923C</color>
+    <color name="gyan_pink">#EC4899</color>
+    <color name="gyan_pink_glow">#F472B6</color>
+    <color name="gyan_cyan">#06B6D4</color>
+    <color name="gyan_cyan_glow">#22D3EE</color>
+
+    <!-- Typography -->
+    <color name="gyan_text_main">#F8FAFC</color>
+    <color name="gyan_text_muted">#94A3B8</color>
+    <color name="gyan_text_dim">#64748B</color>
+
+    <!-- Legacy / System colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#EF4444</color>
+    <color name="purple_700">#B91C1C</color>
+    <color name="teal_200">#3B82F6</color>
+    <color name="teal_700">#1D4ED8</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="aa_green_container">#0A2E18</color>
+    <color name="aa_green_text">#34D399</color>
+    <color name="aa_red_container">#381116</color>
+    <color name="aa_red_text">#F87171</color>
+</resources>

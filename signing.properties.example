@@ -1,0 +1,6 @@
+# Example signing configuration
+# Copy this file to signing.properties and insert your credentials,
+# OR set them as environment variables (KEYSTORE_PASSWORD, KEYSTORE_ALIAS, KEY_PASSWORD)
+KEYSTORE_ALIAS=my-key-alias
+KEY_PASSWORD=my-key-password
+STORE_PASSWORD=my-store-password

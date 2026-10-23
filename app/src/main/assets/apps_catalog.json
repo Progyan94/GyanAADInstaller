@@ -1,0 +1,186 @@
+[
+  {
+    "id": "fermata_auto",
+    "name": "Fermata Auto",
+    "packageName": "me.aap.fermata.auto",
+    "author": "AndreyPavlenko",
+    "category": "Video & Media",
+    "accentColor": "#EF4444",
+    "iconUrl": "https://raw.githubusercontent.com/AndreyPavlenko/Fermata/master/fermata/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "description": "The ultimate media player for Android Auto. Plays local audio and video files, supports YouTube streaming, IPTV playlists (m3u/m3u8), and includes a built-in web browser with media detection.",
+    "githubRepo": "AndreyPavlenko/Fermata",
+    "apkFilter": "fermata-.*-auto.*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "1.9.9",
+        "downloadUrl": "https://github.com/AndreyPavlenko/Fermata/releases/download/v1.9.9/fermata-1.9.9-auto-universal-arm64.apk",
+        "size": "26.4 MB",
+        "changelog": "Added Android 14/15/16 support, performance improvements, and updated media playback engine."
+      },
+      {
+        "versionName": "1.9.8",
+        "downloadUrl": "https://github.com/AndreyPavlenko/Fermata/releases/download/v1.9.8/fermata-1.9.8-auto-universal-arm64.apk",
+        "size": "25.8 MB",
+        "changelog": "Stability fixes and updated YouTube parser."
+      },
+      {
+        "versionName": "1.9.7",
+        "downloadUrl": "https://github.com/AndreyPavlenko/Fermata/releases/download/v1.9.7/fermata-1.9.7-auto-universal-arm64.apk",
+        "size": "25.1 MB",
+        "changelog": "Subtitles rendering improvements and IPTV buffering fixes."
+      }
+    ]
+  },
+  {
+    "id": "carstream",
+    "name": "CarStream",
+    "packageName": "it.theiostream.carstream",
+    "author": "theiostream",
+    "category": "Video Streaming",
+    "accentColor": "#F97316",
+    "iconUrl": "https://raw.githubusercontent.com/theiostream/CarStream/master/res/drawable-xxxhdpi/ic_launcher.png",
+    "description": "Stream YouTube videos directly onto your vehicle's car screen display. Supports full playback controls, search, account login, and desktop mode.",
+    "githubRepo": "theiostream/CarStream",
+    "apkFilter": ".*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "2.0.5",
+        "downloadUrl": "https://github.com/theiostream/CarStream/releases/download/v2.0.5/CarStream-2.0.5.apk",
+        "size": "4.2 MB",
+        "changelog": "Updated webview compatibility and navigation bar fixes."
+      },
+      {
+        "versionName": "2.0.4",
+        "downloadUrl": "https://github.com/theiostream/CarStream/releases/download/v2.0.4/CarStream-2.0.4.apk",
+        "size": "4.1 MB",
+        "changelog": "Search suggestions and keyboard rendering updates."
+      }
+    ]
+  },
+  {
+    "id": "screen2auto",
+    "name": "Screen2Auto",
+    "packageName": "ru.inceptive.screen2auto",
+    "author": "Inceptive (annexhack)",
+    "category": "Screen Mirroring",
+    "accentColor": "#3B82F6",
+    "iconUrl": "https://inceptive.ru/images/s2a_logo.png",
+    "description": "Advanced screen mirroring for Android Auto. Mirrors your entire smartphone screen to your car dashboard with full multi-touch support, custom DPI adjustments, and app launch shortcuts.",
+    "githubRepo": "",
+    "apkFilter": ".*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "3.7.0",
+        "downloadUrl": "https://github.com/shmykelsa/AA-Tweaker/releases/download/v1.0/Screen2Auto_3.7.apk",
+        "size": "14.2 MB",
+        "changelog": "Enhanced touch latency and aspect ratio compensation."
+      },
+      {
+        "versionName": "3.6.3",
+        "downloadUrl": "https://github.com/shmykelsa/AA-Tweaker/releases/download/v1.0/Screen2Auto_3.6.3.apk",
+        "size": "13.9 MB",
+        "changelog": "Root & non-root compatibility enhancements."
+      }
+    ]
+  },
+  {
+    "id": "aamirror_plus",
+    "name": "AA Mirror Plus",
+    "packageName": "com.slash.aamirror",
+    "author": "Rikj000 & slashmax",
+    "category": "Screen Mirroring",
+    "accentColor": "#EC4899",
+    "iconUrl": "https://raw.githubusercontent.com/Rikj000/AAMirror/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "description": "Fork of AA Mirror with expanded features: multi-touch gesture support, automatic screen rotation, custom aspect ratio fitting, and brightness dimming during mirroring.",
+    "githubRepo": "Rikj000/AAMirror",
+    "apkFilter": ".*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "1.1.4",
+        "downloadUrl": "https://github.com/Rikj000/AAMirror/releases/download/v1.1.4/app-release.apk",
+        "size": "3.8 MB",
+        "changelog": "Added support for Android 13+ and high-resolution vehicle displays."
+      }
+    ]
+  },
+  {
+    "id": "aa_passenger",
+    "name": "AA Passenger",
+    "packageName": "com.croconaut.aapassenger",
+    "author": "Martin Soucha",
+    "category": "Passenger Media",
+    "accentColor": "#F59E0B",
+    "iconUrl": "https://raw.githubusercontent.com/croconaut/android-auto-passenger/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "description": "Allows passengers to stream and control music, videos, and navigation cues onto the car's Android Auto screen without touching the driver's phone.",
+    "githubRepo": "croconaut/android-auto-passenger",
+    "apkFilter": ".*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "1.4.1",
+        "downloadUrl": "https://github.com/croconaut/android-auto-passenger/releases/download/v1.4.1/aa-passenger-1.4.1.apk",
+        "size": "5.6 MB",
+        "changelog": "Bug fixes for audio stream sync and wireless connection stability."
+      }
+    ]
+  },
+  {
+    "id": "fermata_control",
+    "name": "Fermata Control",
+    "packageName": "me.aap.fermata.control",
+    "author": "AndreyPavlenko",
+    "category": "Utilities",
+    "accentColor": "#06B6D4",
+    "iconUrl": "https://raw.githubusercontent.com/AndreyPavlenko/Fermata/master/fermata/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "description": "Companion media control app for Fermata Auto. Provides media session notifications, steering wheel key interception, and lockscreen integration.",
+    "githubRepo": "AndreyPavlenko/Fermata",
+    "apkFilter": "fermata-.*-control.*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "1.9.9",
+        "downloadUrl": "https://github.com/AndreyPavlenko/Fermata/releases/download/v1.9.9/fermata-1.9.9-control-universal-arm64.apk",
+        "size": "6.1 MB",
+        "changelog": "Sync with Fermata 1.9.9 media engine."
+      }
+    ]
+  },
+  {
+    "id": "aabrowser",
+    "name": "AA Browser",
+    "packageName": "com.fcaronte.aabrowser",
+    "author": "FCaronte",
+    "category": "Web Browser",
+    "accentColor": "#3B82F6",
+    "iconUrl": "https://raw.githubusercontent.com/fcaronte/AABrowser/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "description": "A full-featured Chromium-based web browser optimized for Android Auto touchscreens. Browse any website, watch HTML5 video, save bookmarks, and navigate with desktop zoom.",
+    "githubRepo": "fcaronte/AABrowser",
+    "apkFilter": ".*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "1.2.0",
+        "downloadUrl": "https://github.com/fcaronte/AABrowser/releases/download/v1.2.0/AABrowser-v1.2.0.apk",
+        "size": "8.7 MB",
+        "changelog": "Tab management, custom user agent toggling, and fast loading."
+      }
+    ]
+  },
+  {
+    "id": "ipcartv",
+    "name": "IPcarTV",
+    "packageName": "com.ipcartv.app",
+    "author": "IPcarTV Team",
+    "category": "Live TV & Streaming",
+    "accentColor": "#EF4444",
+    "iconUrl": "https://raw.githubusercontent.com/fcaronte/KingInstaller/master/assets/icon.png",
+    "description": "Stream live DVB-T and IPTV channels inside Android Auto. Add your favorite m3u8 playlists, view EPG program guides, and switch channels directly using your car screen.",
+    "githubRepo": "",
+    "apkFilter": ".*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "2.4.0",
+        "downloadUrl": "https://github.com/shmykelsa/AA-Tweaker/releases/download/v1.0/IPcarTV_2.4.apk",
+        "size": "11.5 MB",
+        "changelog": "Low-latency streaming mode and HLS video decoding."
+      }
+    ]
+  }
+]

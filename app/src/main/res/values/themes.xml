@@ -1,0 +1,40 @@
+<resources>
+    <!-- Gyan AAD Hub Cyberpunk / AI Operator Theme (GyanXD25) -->
+    <style name="Theme.KingInstaller" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/gyan_crimson</item>
+        <item name="colorOnPrimary">@color/gyan_text_main</item>
+        <item name="colorPrimaryContainer">#2D1520</item>
+        <item name="colorOnPrimaryContainer">@color/gyan_pink_glow</item>
+
+        <item name="colorSecondary">@color/gyan_blue</item>
+        <item name="colorOnSecondary">@color/gyan_text_main</item>
+        <item name="colorSecondaryContainer">#121F3D</item>
+        <item name="colorOnSecondaryContainer">@color/gyan_blue_glow</item>
+
+        <item name="colorTertiary">@color/gyan_gold</item>
+        <item name="colorOnTertiary">#000000</item>
+        <item name="colorTertiaryContainer">#35240A</item>
+        <item name="colorOnTertiaryContainer">@color/gyan_gold_bright</item>
+
+        <!-- Background & Surface -->
+        <item name="android:windowBackground">@color/gyan_bg_dark</item>
+        <item name="colorSurface">@color/gyan_bg_surface</item>
+        <item name="colorOnSurface">@color/gyan_text_main</item>
+        <item name="colorSurfaceVariant">@color/gyan_bg_card</item>
+        <item name="colorOnSurfaceVariant">@color/gyan_text_muted</item>
+        <item name="colorOutline">@color/gyan_border_subtle</item>
+
+        <!-- System Bars -->
+        <item name="android:statusBarColor">@color/gyan_bg_dark</item>
+        <item name="android:navigationBarColor">@color/gyan_bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.KingInstaller.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/gyan_bg_dark</item>
+        <item name="colorSurface">@color/gyan_bg_surface</item>
+    </style>
+</resources>
