@@ -20,6 +20,7 @@
     <color name="gyan_pink">#EC4899</color>
     <color name="gyan_pink_glow">#F472B6</color>
     <color name="gyan_cyan">#06B6D4</color>
+    <color name="gyan_cyan_neon">#06B6D4</color>
     <color name="gyan_cyan_glow">#22D3EE</color>
 
     <!-- Typography -->
