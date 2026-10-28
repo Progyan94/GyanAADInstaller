@@ -6,28 +6,23 @@
     "author": "AndreyPavlenko",
     "category": "Video & Media",
     "accentColor": "#EF4444",
-    "iconUrl": "https://raw.githubusercontent.com/AndreyPavlenko/Fermata/master/fermata/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
-    "description": "The ultimate media player for Android Auto. Plays local audio and video files, supports YouTube streaming, IPTV playlists (m3u/m3u8), and includes a built-in web browser with media detection.",
+    "iconDrawable": "ic_app_fermata",
+    "iconUrl": "https://avatars.githubusercontent.com/u/9082363?v=4",
+    "description": "Full-featured audio, video, and TV player for Android Auto. Plays local video and music files, YouTube streams, and IPTV playlists (m3u/m3u8) with complete audio/video sync and media playback controls.",
     "githubRepo": "AndreyPavlenko/Fermata",
-    "apkFilter": "fermata-.*-auto.*\\.apk",
+    "apkFilter": "fermata-auto-.*\\.apk",
     "defaultVersions": [
+      {
+        "versionName": "2.0.2",
+        "downloadUrl": "https://github.com/AndreyPavlenko/Fermata/releases/download/2.0.2/fermata-auto-2.0.2-arm64.apk",
+        "size": "145 MB",
+        "changelog": "Full ffmpeg media engine, Android 14/15/16 support, YouTube playback stability fixes."
+      },
       {
         "versionName": "1.9.9",
         "downloadUrl": "https://github.com/AndreyPavlenko/Fermata/releases/download/v1.9.9/fermata-1.9.9-auto-universal-arm64.apk",
         "size": "26.4 MB",
-        "changelog": "Added Android 14/15/16 support, performance improvements, and updated media playback engine."
-      },
-      {
-        "versionName": "1.9.8",
-        "downloadUrl": "https://github.com/AndreyPavlenko/Fermata/releases/download/v1.9.8/fermata-1.9.8-auto-universal-arm64.apk",
-        "size": "25.8 MB",
-        "changelog": "Stability fixes and updated YouTube parser."
-      },
-      {
-        "versionName": "1.9.7",
-        "downloadUrl": "https://github.com/AndreyPavlenko/Fermata/releases/download/v1.9.7/fermata-1.9.7-auto-universal-arm64.apk",
-        "size": "25.1 MB",
-        "changelog": "Subtitles rendering improvements and IPTV buffering fixes."
+        "changelog": "Lightweight build, improved subtitle rendering, and IPTV playlist caching."
       }
     ]
   },
@@ -37,23 +32,30 @@
     "packageName": "it.theiostream.carstream",
     "author": "theiostream",
     "category": "Video Streaming",
-    "accentColor": "#F97316",
-    "iconUrl": "https://raw.githubusercontent.com/theiostream/CarStream/master/res/drawable-xxxhdpi/ic_launcher.png",
-    "description": "Stream YouTube videos directly onto your vehicle's car screen display. Supports full playback controls, search, account login, and desktop mode.",
-    "githubRepo": "theiostream/CarStream",
+    "accentColor": "#F59E0B",
+    "iconDrawable": "ic_app_carstream",
+    "iconUrl": "https://img.utdstc.com/icon/cf5/633/cf5633084e09afa27d6524c2a12d268cf8e307fe46795ef60db748b1f0707b51:200",
+    "description": "Stream YouTube and online videos directly to your car screen. Features account sign-in, video search, custom URLs, and desktop browser mode for parked car entertainment.",
+    "githubRepo": "",
     "apkFilter": ".*\\.apk",
     "defaultVersions": [
       {
         "versionName": "2.0.5",
-        "downloadUrl": "https://github.com/theiostream/CarStream/releases/download/v2.0.5/CarStream-2.0.5.apk",
-        "size": "4.2 MB",
-        "changelog": "Updated webview compatibility and navigation bar fixes."
+        "downloadUrl": "https://firebasestorage.googleapis.com/v0/b/appsforaa-1b443.appspot.com/o/CarStream%2F2.0.5?alt=media&token=11545549-78bc-4cf0-bc0b-91e3b5a35bbd",
+        "size": "11.1 MB",
+        "changelog": "Updated WebView rendering, touch fix for high DPI car displays."
       },
       {
         "versionName": "2.0.4",
-        "downloadUrl": "https://github.com/theiostream/CarStream/releases/download/v2.0.4/CarStream-2.0.4.apk",
-        "size": "4.1 MB",
+        "downloadUrl": "https://firebasestorage.googleapis.com/v0/b/appsforaa-1b443.appspot.com/o/CarStream%2F2.0.4?alt=media&token=84a509d2-21c9-4039-ac0a-76f394efd960",
+        "size": "11.0 MB",
         "changelog": "Search suggestions and keyboard rendering updates."
+      },
+      {
+        "versionName": "2.0.2",
+        "downloadUrl": "https://firebasestorage.googleapis.com/v0/b/appsforaa-1b443.appspot.com/o/CarStream%2F2.0.2?alt=media&token=0bf0741f-e92f-4b15-9aff-af1429486ef0",
+        "size": "10.3 MB",
+        "changelog": "Legacy stability release with low memory footprint."
       }
     ]
   },
@@ -64,22 +66,17 @@
     "author": "Inceptive (annexhack)",
     "category": "Screen Mirroring",
     "accentColor": "#3B82F6",
-    "iconUrl": "https://inceptive.ru/images/s2a_logo.png",
-    "description": "Advanced screen mirroring for Android Auto. Mirrors your entire smartphone screen to your car dashboard with full multi-touch support, custom DPI adjustments, and app launch shortcuts.",
+    "iconDrawable": "ic_app_screen2auto",
+    "iconUrl": "https://aaadapk.app/wp-content/uploads/2024/05/Screen2Auto.png",
+    "description": "Advanced smartphone screen mirroring for Android Auto. Mirrors your entire phone display with full multi-touch input, aspect ratio fitting, custom DPI scaling, and customizable app launcher.",
     "githubRepo": "",
     "apkFilter": ".*\\.apk",
     "defaultVersions": [
       {
         "versionName": "3.7.0",
-        "downloadUrl": "https://github.com/shmykelsa/AA-Tweaker/releases/download/v1.0/Screen2Auto_3.7.apk",
-        "size": "14.2 MB",
-        "changelog": "Enhanced touch latency and aspect ratio compensation."
-      },
-      {
-        "versionName": "3.6.3",
-        "downloadUrl": "https://github.com/shmykelsa/AA-Tweaker/releases/download/v1.0/Screen2Auto_3.6.3.apk",
-        "size": "13.9 MB",
-        "changelog": "Root & non-root compatibility enhancements."
+        "downloadUrl": "https://firebasestorage.googleapis.com/v0/b/appsforaa-1b443.appspot.com/o/s2a%2F3.7.apk?alt=media&token=658e85c3-22bc-44d3-be98-7a847c5b26e8",
+        "size": "18.1 MB",
+        "changelog": "Enhanced touch latency, custom DPI profiles, and Android 13/14 compatibility."
       }
     ]
   },
@@ -90,96 +87,170 @@
     "author": "Rikj000 & slashmax",
     "category": "Screen Mirroring",
     "accentColor": "#EC4899",
-    "iconUrl": "https://raw.githubusercontent.com/Rikj000/AAMirror/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "iconDrawable": "ic_app_aamirror",
+    "iconUrl": "https://aaadapk.app/wp-content/uploads/2024/05/AA-Mirror.png",
     "description": "Fork of AA Mirror with expanded features: multi-touch gesture support, automatic screen rotation, custom aspect ratio fitting, and brightness dimming during mirroring.",
-    "githubRepo": "Rikj000/AAMirror",
+    "githubRepo": "",
     "apkFilter": ".*\\.apk",
     "defaultVersions": [
       {
-        "versionName": "1.1.4",
-        "downloadUrl": "https://github.com/Rikj000/AAMirror/releases/download/v1.1.4/app-release.apk",
-        "size": "3.8 MB",
-        "changelog": "Added support for Android 13+ and high-resolution vehicle displays."
+        "versionName": "1.01a (Plus)",
+        "downloadUrl": "https://firebasestorage.googleapis.com/v0/b/appsforaa-1b443.appspot.com/o/AAMirrorPlus%2FAAMirror%20Plus%201.01a.apk?alt=media&token=0d6b0198-e74c-4532-900d-04086f0201ea",
+        "size": "2.5 MB",
+        "changelog": "Multi-touch gestures, auto orientation, and screen dimming."
+      },
+      {
+        "versionName": "1.0 (Standard)",
+        "downloadUrl": "https://firebasestorage.googleapis.com/v0/b/appsforaa-1b443.appspot.com/o/mirror-debug.apk?alt=media&token=d1b2ae72-0c85-4d01-965c-033a27a7c9dc",
+        "size": "2.4 MB",
+        "changelog": "Original AA Mirror lightweight screen mirroring."
+      }
+    ]
+  },
+  {
+    "id": "aastream",
+    "name": "AAStream",
+    "packageName": "maps.mobilejiohubclient.android",
+    "author": "shmykelsa",
+    "category": "Screen Mirroring",
+    "accentColor": "#06B6D4",
+    "iconDrawable": "ic_app_aastream",
+    "iconUrl": "https://avatars.githubusercontent.com/u/51153169?v=4",
+    "description": "High-framerate video and display streamer for Android Auto. Stream phone media apps and browser pages with low latency.",
+    "githubRepo": "",
+    "apkFilter": ".*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "1.1.0.29",
+        "downloadUrl": "https://firebasestorage.googleapis.com/v0/b/appsforaa-1b443.appspot.com/o/AAStream%2Faa-stream-v1.1.0.29-release.apk?alt=media&token=e80107f9-4b8f-4625-8a50-1f5236ffb3bf",
+        "size": "3.5 MB",
+        "changelog": "Optimized audio sync and hardware decoding pipeline."
       }
     ]
   },
   {
     "id": "aa_passenger",
     "name": "AA Passenger",
-    "packageName": "com.croconaut.aapassenger",
+    "packageName": "com.github.martoreto.aaremote",
     "author": "Martin Soucha",
     "category": "Passenger Media",
-    "accentColor": "#F59E0B",
-    "iconUrl": "https://raw.githubusercontent.com/croconaut/android-auto-passenger/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "accentColor": "#F97316",
+    "iconDrawable": "ic_app_passenger",
+    "iconUrl": "https://avatars.githubusercontent.com/u/6421042?v=4",
     "description": "Allows passengers to stream and control music, videos, and navigation cues onto the car's Android Auto screen without touching the driver's phone.",
-    "githubRepo": "croconaut/android-auto-passenger",
+    "githubRepo": "",
     "apkFilter": ".*\\.apk",
     "defaultVersions": [
       {
-        "versionName": "1.4.1",
-        "downloadUrl": "https://github.com/croconaut/android-auto-passenger/releases/download/v1.4.1/aa-passenger-1.4.1.apk",
-        "size": "5.6 MB",
-        "changelog": "Bug fixes for audio stream sync and wireless connection stability."
-      }
-    ]
-  },
-  {
-    "id": "fermata_control",
-    "name": "Fermata Control",
-    "packageName": "me.aap.fermata.control",
-    "author": "AndreyPavlenko",
-    "category": "Utilities",
-    "accentColor": "#06B6D4",
-    "iconUrl": "https://raw.githubusercontent.com/AndreyPavlenko/Fermata/master/fermata/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
-    "description": "Companion media control app for Fermata Auto. Provides media session notifications, steering wheel key interception, and lockscreen integration.",
-    "githubRepo": "AndreyPavlenko/Fermata",
-    "apkFilter": "fermata-.*-control.*\\.apk",
-    "defaultVersions": [
-      {
-        "versionName": "1.9.9",
-        "downloadUrl": "https://github.com/AndreyPavlenko/Fermata/releases/download/v1.9.9/fermata-1.9.9-control-universal-arm64.apk",
-        "size": "6.1 MB",
-        "changelog": "Sync with Fermata 1.9.9 media engine."
+        "versionName": "1.9-alpha8",
+        "downloadUrl": "https://firebasestorage.googleapis.com/v0/b/appsforaa-1b443.appspot.com/o/AAPassenger%2Faa2ndseat-1.9-alpha8.apk?alt=media&token=c394139c-0833-45cf-984f-8faedfd103f5",
+        "size": "4.1 MB",
+        "changelog": "Audio stream sync and wireless connection stability enhancements."
       }
     ]
   },
   {
     "id": "aabrowser",
     "name": "AA Browser",
-    "packageName": "com.fcaronte.aabrowser",
-    "author": "FCaronte",
+    "packageName": "com.kododake.aabrowser",
+    "author": "kododake",
     "category": "Web Browser",
     "accentColor": "#3B82F6",
-    "iconUrl": "https://raw.githubusercontent.com/fcaronte/AABrowser/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "iconDrawable": "ic_app_browser",
+    "iconUrl": "https://firebasestorage.googleapis.com/v0/b/appsforaa-1b443.appspot.com/o/app_icons%2Faabrowser.png?alt=media&token=1f643458-b5a5-42a0-ab1b-7d1626cb75b2",
     "description": "A full-featured Chromium-based web browser optimized for Android Auto touchscreens. Browse any website, watch HTML5 video, save bookmarks, and navigate with desktop zoom.",
-    "githubRepo": "fcaronte/AABrowser",
+    "githubRepo": "kododake/AABrowser",
     "apkFilter": ".*\\.apk",
     "defaultVersions": [
       {
-        "versionName": "1.2.0",
-        "downloadUrl": "https://github.com/fcaronte/AABrowser/releases/download/v1.2.0/AABrowser-v1.2.0.apk",
-        "size": "8.7 MB",
-        "changelog": "Tab management, custom user agent toggling, and fast loading."
+        "versionName": "3.3",
+        "downloadUrl": "https://github.com/kododake/AABrowser/releases/download/v3.3/AABrowser-3.3.apk",
+        "size": "10.6 MB",
+        "changelog": "Modern web engine updates, tab switcher, and custom bookmark manager."
       }
     ]
   },
   {
-    "id": "ipcartv",
-    "name": "IPcarTV",
-    "packageName": "com.ipcartv.app",
-    "author": "IPcarTV Team",
-    "category": "Live TV & Streaming",
+    "id": "perfmon",
+    "name": "Performance Monitor",
+    "packageName": "com.mqbcoding.stats",
+    "author": "jilleb",
+    "category": "Telemetry & Gauges",
     "accentColor": "#EF4444",
-    "iconUrl": "https://raw.githubusercontent.com/fcaronte/KingInstaller/master/assets/icon.png",
-    "description": "Stream live DVB-T and IPTV channels inside Android Auto. Add your favorite m3u8 playlists, view EPG program guides, and switch channels directly using your car screen.",
-    "githubRepo": "",
+    "iconDrawable": "ic_app_perfmon",
+    "iconUrl": "https://raw.githubusercontent.com/jilleb/mqb-pm/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "description": "Real-time vehicle telemetry on your car display: turbo boost pressure, oil temperature, coolant temperature, g-meter, and live power output gauges.",
+    "githubRepo": "jilleb/mqb-pm",
     "apkFilter": ".*\\.apk",
     "defaultVersions": [
       {
-        "versionName": "2.4.0",
-        "downloadUrl": "https://github.com/shmykelsa/AA-Tweaker/releases/download/v1.0/IPcarTV_2.4.apk",
-        "size": "11.5 MB",
-        "changelog": "Low-latency streaming mode and HLS video decoding."
+        "versionName": "0.88B",
+        "downloadUrl": "https://github.com/jilleb/mqb-pm/releases/download/v0.88B/Performance.Monitor.v0.88B.apk",
+        "size": "17.8 MB",
+        "changelog": "MQB platform telemetry support, gauge customization, and real-time logging."
+      }
+    ]
+  },
+  {
+    "id": "aatorque",
+    "name": "AATorque",
+    "packageName": "com.aatorque.stats",
+    "author": "agronick",
+    "category": "OBD2 Telemetry",
+    "accentColor": "#F59E0B",
+    "iconDrawable": "ic_app_aatorque",
+    "iconUrl": "https://raw.githubusercontent.com/agronick/aa-torque/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "description": "Displays live OBD2 engine diagnostics from Torque Pro directly on Android Auto: RPM, speed, gear, fuel flow, intake temperatures, and trouble codes.",
+    "githubRepo": "agronick/aa-torque",
+    "apkFilter": ".*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "2.0.30",
+        "downloadUrl": "https://github.com/agronick/aa-torque/releases/download/2.0.30/aa-torque.apk",
+        "size": "20.2 MB",
+        "changelog": "PID updates, Torque Pro socket integration, and widescreen AA gauge layouts."
+      }
+    ]
+  },
+  {
+    "id": "aawidgets",
+    "name": "Widgets For Android Auto",
+    "packageName": "de.nsvb.android.auto.w4a",
+    "author": "ns130291",
+    "category": "Dashboard Widgets",
+    "accentColor": "#06B6D4",
+    "iconDrawable": "ic_app_aawidgets",
+    "iconUrl": "https://raw.githubusercontent.com/ns130291/widgets-for-auto/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "description": "Display home screen widgets directly inside Android Auto, including weather forecasts, home automation switches, calendar agenda, and media controls.",
+    "githubRepo": "ns130291/widgets-for-auto",
+    "apkFilter": ".*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "0.2.3",
+        "downloadUrl": "https://github.com/ns130291/widgets-for-auto/releases/download/v0.2.3/widgets4auto-0.2.3.apk",
+        "size": "3.4 MB",
+        "changelog": "Widget resizing fixes, low-latency refresh, and multi-widget layout support."
+      }
+    ]
+  },
+  {
+    "id": "nav2contacts",
+    "name": "Nav2Contacts",
+    "packageName": "nl.frankkie.nav2contacts",
+    "author": "frankkienl",
+    "category": "Navigation",
+    "accentColor": "#EC4899",
+    "iconDrawable": "ic_app_nav2contacts",
+    "iconUrl": "https://avatars.githubusercontent.com/u/1390975?v=4",
+    "description": "Seamlessly navigate to contact addresses directly from your Android Auto screen without needing to manually copy or type addresses.",
+    "githubRepo": "frankkienl/Nav2Contacts",
+    "apkFilter": ".*\\.apk",
+    "defaultVersions": [
+      {
+        "versionName": "1.0.3",
+        "downloadUrl": "https://github.com/frankkienl/Nav2Contacts/releases/download/v1.0.3/Nav2Contatcs-release5_1.0.3.apk",
+        "size": "4.3 MB",
+        "changelog": "Contact search optimization, Google Maps and Waze deep link dispatching."
       }
     ]
   }

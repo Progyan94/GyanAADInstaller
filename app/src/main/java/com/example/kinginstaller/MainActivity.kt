@@ -413,6 +413,8 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.badgePortfolio)?.setOnClickListener { openPortfolio() }
         findViewById<View>(R.id.btnOpenPortfolio)?.setOnClickListener { openPortfolio() }
+        findViewById<View>(R.id.cardAAGuide)?.setOnClickListener { showAndroidAutoGuideDialog() }
+        findViewById<View>(R.id.btnSettingsAAGuide)?.setOnClickListener { showAndroidAutoGuideDialog() }
 
         // Settings Buttons
         findViewById<View>(R.id.btnSettingsCheckApps)?.setOnClickListener {
@@ -468,6 +470,41 @@ class MainActivity : AppCompatActivity() {
         } else {
             fileNameText.visibility = View.GONE
         }
+    }
+
+    private fun showAndroidAutoGuideDialog() {
+        val guideMessage = """
+            Android Auto hides third-party apps by default. Follow these steps to make apps show up in your car:
+
+            1️⃣ Enable Developer Settings:
+            • Open Android Auto Settings (tap button below).
+            • Scroll down to 'Version and release notes'.
+            • Tap 'Version' 10 times until 'Developer mode enabled' appears.
+
+            2️⃣ Turn On 'Unknown Sources':
+            • Tap the 3 dots in the top-right corner.
+            • Select 'Developer settings'.
+            • Check the box for 'Unknown sources'.
+
+            3️⃣ Check 'Customize Launcher':
+            • In Android Auto Settings, tap 'Customize launcher'.
+            • Verify that your installed apps (Fermata Auto, CarStream, Screen2Auto, etc.) are checked.
+
+            4️⃣ Android 14+ / HyperOS / OneUI:
+            • Google blocks standard installer spoofing on Android 14+.
+            • If apps still don't show, switch to the 'Installer' tab and use the 'Shizuku Method' for guaranteed installation!
+
+            5️⃣ Reconnect USB / Wireless connection in your car.
+        """.trimIndent()
+
+        com.google.android.material.dialog.MaterialAlertDialogBuilder(this)
+            .setTitle("🚗 Car Dashboard Setup Guide")
+            .setMessage(guideMessage)
+            .setPositiveButton("Open Android Auto") { _, _ ->
+                openAndroidAutoSettings()
+            }
+            .setNegativeButton("Got It", null)
+            .show()
     }
 
     private fun openAndroidAutoSettings() {
@@ -611,12 +648,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val url = when (item.itemId) {
-            R.id.action_search -> "https://gitlab.com/annexhack/king-installer"
+            R.id.action_search -> "https://github.com/Progyan94/GyanAADInstaller"
             R.id.action_search2 -> "https://github.com/fcaronte/KingInstaller"
             R.id.action_search3 -> "https://github.com/Rikj000/KingInstaller"
-            R.id.action_site -> "https://inceptive.ru"
+            R.id.action_site -> "https://gyan-portfolio-coral.vercel.app"
             R.id.action_download_shizuku_next -> "https://github.com/rushiranpise/Shizuku-Next/releases"
-            R.id.action_readme -> "https://github.com/fcaronte/KingInstaller/blob/master/README.md"
+            R.id.action_readme -> "https://github.com/Progyan94/GyanAADInstaller/blob/main/README.md"
             R.id.action_change_language -> {
                 openAppLanguageSettings()
                 return true

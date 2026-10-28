@@ -17,6 +17,7 @@ data class AppModel(
     val category: String,
     val accentColor: String,
     val iconUrl: String,
+    val iconDrawable: String = "",
     val description: String,
     val githubRepo: String = "",
     val apkFilter: String = ".*\\.apk",

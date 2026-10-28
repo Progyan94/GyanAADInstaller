@@ -31,6 +31,7 @@ object AppCatalogRepository {
                 val category = obj.optString("category", "General")
                 val accentColor = obj.optString("accentColor", "#EF4444")
                 val iconUrl = obj.optString("iconUrl", "")
+                val iconDrawable = obj.optString("iconDrawable", "")
                 val description = obj.optString("description", "")
                 val githubRepo = obj.optString("githubRepo", "")
                 val apkFilter = obj.optString("apkFilter", ".*\\.apk")
@@ -59,6 +60,7 @@ object AppCatalogRepository {
                     category = category,
                     accentColor = accentColor,
                     iconUrl = iconUrl,
+                    iconDrawable = iconDrawable,
                     description = description,
                     githubRepo = githubRepo,
                     apkFilter = apkFilter,

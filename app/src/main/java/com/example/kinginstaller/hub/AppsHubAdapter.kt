@@ -55,7 +55,17 @@ class AppsHubAdapter(
             holder.appCategory.setTextColor(Color.parseColor(app.accentColor))
         } catch (_: Exception) {}
 
-        ImageLoader.loadIcon(holder.appIcon, app.iconUrl)
+        var loadedLocal = false
+        if (app.iconDrawable.isNotBlank()) {
+            val resId = context.resources.getIdentifier(app.iconDrawable, "drawable", context.packageName)
+            if (resId != 0) {
+                holder.appIcon.setImageResource(resId)
+                loadedLocal = true
+            }
+        }
+        if (!loadedLocal) {
+            ImageLoader.loadIcon(holder.appIcon, app.iconUrl)
+        }
 
         fun setupSpinner(versions: List<AppVersion>) {
             val versionLabels = versions.map { v ->

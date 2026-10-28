@@ -12,7 +12,7 @@ import kotlin.concurrent.thread
 
 object UpdateChecker {
 
-    private const val GITHUB_API_URL = "https://api.github.com/repos/fcaronte/KingInstaller/releases/latest"
+    private const val GITHUB_API_URL = "https://api.github.com/repos/Progyan94/GyanAADInstaller/releases/latest"
 
     fun checkForUpdates(activity: Activity, manual: Boolean = false) {
         thread {
